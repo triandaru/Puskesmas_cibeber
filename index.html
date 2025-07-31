@@ -2,327 +2,874 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puskesmas Cibeber Cimahi</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Puskesmas Cibeber- Kota Cimahi</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-    <!-- box icons -->
-    <link href="http://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="assets/img/logo-pkm.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  
 </head>
 
+<body class="index-page">
 
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
 
-<body>
-
-    <header class="header">
-        <a href="#" class="logo">
-            <img src="images/Cimahi.png" alt="Logo" class="logo-img">
-            <img src="images/psks.png" alt="Logo" class="logo-img">
-            Puskesmas Cibeber
+      
+      <a href="#" class="logo d-flex align-items-center me-auto me-xl-0">
+            <img src="assets/img/Cimahi.png" alt="Logo" class="logo-img">
+            <img src="assets/img/logo-pkm.png" alt="Logo" class="logo-img">
+            <h1 class="sitename">Puskesmas Cibeber</h1>
+            <span>.</span>
         </a>
 
-        <i class="bx bx-menu" id="menu-icon"></i>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">Profil</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#events">Kegiatan</a></li>
+          <li><a href="#dokter">Dokter</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+          <li class="dropdown"><a href="#"><span>Artikel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Beranda</a>
-            <a href="#profil">Profil</a>
-            <a href="#layanan">Layanan</a>
-            <a href="#program">Program</a>
-            <a href="#kontak">Kontak</a>
-          </nav>
-          
-    </header>
+      
 
-    <!-- home section design-->
-    <section class="home" id="home">
+    </div>
+  </header>
 
-        <div class="home-content">
-            <h3>Selamat Datang di Website</h3>
-            <h1>Puskesmas Cibeber Cimahi</h1>
-            <h3><span class="multiple-text"></span></h3>
-            <p>Kami memberikan pelayanan kesehatan masyarakat tingkat pertama yang profesional, terjangkau, dan bermutu.</p>
+  <main class="main">
 
-            <div class="social-media">
-                <a href="https://www.facebook.com/share/12LigTtcV68/ " target="_blank"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/puskesmascibeber_cimahi?igsh=dm5hb2VieG1wbTZm" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-                <a href="https://wa.me/6282127669160" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-center justify-content-lg-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2 data-aos="fade-up">Selamat Datang di Website</h2>
+            <h1 data-aos="fade-up">Puskesmas Cibeber</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Kami memberikan pelayanan kesehatan masyarakat tingkat pertama yang profesional, terjangkau, dan bermutu.</p>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#" class="btn-get-started">Layanan Kami</a>
+              <a href="https://www.instagram.com/reel/DMc2dYgpW4z/?igsh=MXdmbHN1bGhlMXc2aQ==" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
-            <a href="#layanan" class="btn">Layanan Kami</a>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/dokter.png" class="img-fluid animated" alt="">
+          </div>
         </div>
+      </div>
 
-        <div class="home-img">
-            <div>
-                <img src="images/medical.png" alt="Gambar Puskesmas" class="gambar-kecil">
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tentang Kami<br></h2>
+        <p><span>Profil</span> <span class="description-title">Puskesmas Cibeber</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/puskesmas.jpg" class="img-fluid mb-4" alt="">
+            <div class="book-a-table">
+              <h3>HOTLINE</h3>
+              <p>0812-3456-789</p>
             </div>
-        </div>
-
-
-
-    </section>
-
-    <!-- about section design -->
-
-    <section class="about" id="profil">
-        <div class="about-img">
-            <img src="images/puskesmas.jpg" alt="" height="300px">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">Profil <span>Puskesmas</span></h2>
-            <h3>UPTD Puskesmas Cibeber</h3>
-  <p>UPTD Puskesmas Cibeber merupakan fasilitas kesehatan tingkat pertama di wilayah Cimahi Selatan. 
-    Kami memiliki visi untuk menjadi pelayan kesehatan yang unggul dalam promotif dan preventif.</p>
-  <a href="#" class="btn">Selengkapnya</a>
-        </div>
-    </section>
-
-    <!-- service section design -->
-
-    <section class="services" id="layanan">
-        <h2 class="heading">Jenis <span>Layanan</span></h2>
-  <div class="services-container">
-    <div class="service-box">
-      <i class="bx bx-plus-medical"></i>
-      <h3>Pelayanan Gawat Darurat (IGD)</h3>
-      <p>Menangani kasus medis darurat seperti kecelakaan, trauma, dan kondisi kritis lainnya secara cepat dan tepat.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-    <div class="service-box">
+          </div>
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+            <div class="content ps-0 ps-lg-5">
+              
+              
+              <p>
+                Puskesmas  sebagai  unit  pelaksana  teknis Dinas  Kesehatan  Kota bertanggung jawab menyelenggarakan pembangunan kesehatan di wilayah kerjanya guna mendukung 
+                tercapainya tujuan pembangunan kesehatan nasional yaitu meningkatkan kesadaran, kemauan dan kemampuan hidup sehat bagi setiap orang sehingga terwujud derajat 
+                kesehatan yang setinggi- tingginya.
+              </p>
+              <p>
+                Puskesmas Cibeber merupakan salah bagian dari pembangunan kesehatan kota Cimahi berupaya melaksanakan fungsinya sebagai penyelenggara Usaha Kesehatan Masyarakat 
+                (UKM) tingkat pertama dan penyelenggara Usaha Kesehatan Perorangan (UKP) tingkat pertama di wilayah kerja kelurahan Cibeber mendukung tercapainya visi dan misi 
+                Dinas Kesehatan Kota Cimahi yang mengacu kepada tercapainya Visi dan misi Kota Cimahi.
+              </p>
+              <p>
+                Mulai beroperasi pada tanggal 02 Maret 2009. Pada awalnya puskesmas Cibeber adalah Pustu dari Puskesmas Cimahi Selatan dan terdiri dari 1 buah bangunan 
+                dengan 2 lantai, luas +180m2
                 
-      <i class="bx bx-heart"></i>
-      <h3>Pelayanan Poli Umum</h3>
-      <p>Memberikan layanan pemeriksaan kesehatan secara umum seperti demam, batuk, flu, tekanan darah tinggi, serta konsultasi kesehatan dasar untuk semua kelompok usia.</p>
-                <a href="#" class="btn">Read More</a>
+
+              </p>
+              <p>
+                Tahun 2010 dilakukan pembangunan gedung ke 2 di belakang gedung 1, terdiri dari 2 lantai dengan luas + 234 m2 dan mulai beroperasi januari 2011.
+
+              </p>
+              <p>
+                Pada tahun 2015 dilakukan pembangunan satu ruangan yang diperuntukkan bagi pelayanan Penyakit TB Paru seluas 3x3m disamping kiri gedung ke 2.
+
+              </p>
+              <p>
+                Pada Tahun 2014 atas dukungan pemerintah daerah Kota Cimahi dan Dinas kesehatan Kota Cimahi,Puskesmas Cibeber berhasil mendapatkan sertifikasi ISO 9001:2008
+              </p>
+
+              
             </div>
-
-    <div class="service-box">
-
-      <i class="bx bx-health"></i>
-      <h3>Pelayanan Gigi</h3>
-      <p>Meliputi pemeriksaan kesehatan gigi dan mulut, pembersihan karang gigi, penambalan, pencabutan, serta edukasi kesehatan gigi dan mulut untuk semua usia.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-    <div class="service-box">
-
-      <i class="bx bx-child"></i>
-      <h3>Kesehatan Ibu & Anak</h3>
-      <p>Memberikan layanan pemeriksaan kehamilan, pemantauan tumbuh kembang balita, imunisasi, konseling menyusui, dan perawatan kesehatan reproduksi wanita.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-    <div class="service-box">
-
-      <i class="bx bx-vial"></i>
-      <h3>Pelayanan Laboratorium</h3>
-      <p>Menyediakan layanan pemeriksaan penunjang medis seperti pemeriksaan darah, urin, dan sampel lainnya untuk membantu diagnosis dan pemantauan kondisi kesehatan pasien.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-    <div class="service-box">
-      <i class="bx bxs-clinic"></i>
-      <h3>Pelayanan Farmasi</h3>
-      <p>Melayani pengelolaan, peracikan, dan penyerahan obat sesuai resep dokter serta memberikan edukasi penggunaan obat yang benar dan aman kepada pasien.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
+          </div>
         </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    
+    <!-- /Why Us Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section dark-background">
+
+      <img src="assets/img/bg.jpeg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Poli</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Pasien</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Staff</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+
+    <section id="layanan" class="layanan section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pelayan Kami</h2>
+        <p><span>Jenis</span> <span class="description-title">Layanan</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container"> 
+
+          <div class="col-lg-15 d-flex align-items-stretch">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-xl-4">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-shield-plus"></i>
+                  <h4>Pelayanan Gawat Darurat (IGD)</h4>
+                  <p>Menangani kasus medis darurat seperti kecelakaan, trauma, dan kondisi kritis lainnya secara cepat dan tepat.</p>
+                </div>
+              </div>
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-heart"></i>
+                  <h4>Pelayanan Poli Umum</h4>
+                  <p>Memberikan layanan pemeriksaan kesehatan secara umum seperti demam, batuk, flu, tekanan darah tinggi, serta konsultasi kesehatan dasar untuk semua kelompok usia.</p>
+                </div>
+              </div>
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-asterisk"></i>
+                  <h4>Pelayanan Poli Gigi</h4>
+                  <p>Meliputi pemeriksaan kesehatan gigi dan mulut, pembersihan karang gigi, penambalan, pencabutan, serta edukasi kesehatan gigi dan mulut untuk semua usia.</p>
+                </div>
+              </div>
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-person-standing-dress"></i>
+                  <h4>Pelayanan Kesehatan Ibu & Anak (KIA)</h4>
+                  <p>Memberikan layanan pemeriksaan kehamilan, pemantauan tumbuh kembang balita, imunisasi, konseling menyusui, dan perawatan kesehatan reproduksi wanita.</p>
+                </div>
+              </div>
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-lungs"></i>
+                  <h4>Pelayanan Poli Paru/TB</h4>
+                  <p>Melayani pemeriksaan, pengobatan, dan pemantauan pasien dengan gangguan pernapasan seperti asma, ISPA, dan khususnya Tuberkulosis, sesuai dengan standar DOTS.</p>
+                </div>
+              </div>
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-capsule"></i>
+                  <h4>Pelayanan Farmasi</h4>
+                  <p>Melayani pengelolaan, peracikan, dan penyerahan obat sesuai resep dokter serta memberikan edukasi penggunaan obat yang benar dan aman kepada pasien.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        
+
+      </div>
+
     </section>
 
-    <!-- portfolio section design -->
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
 
-    <section class="portfolio" id="program">
-        <h2 class="heading">Program <span>Kegiatan</span></h2>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>TESTIMONIALS</h2>
+        <p>What Are They <span class="description-title">Saying About Us</span></p>
+      </div><!-- End Section Title -->
 
-        <div class="portfolio-container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="portfolio-box">
-                <img src="images/CKG.jpg" alt="" width="300px" height="300px">
-                <div class="portfolio-layer">
-                    <h4>Cek Kesehatan Gratis</h4>
-                    <p>Pemeriksaan kesehatan dasar secara gratis untuk deteksi dini dan pencegahan penyakit.</p>
-                    <a href="#">
-                        <i class="bx bx-link-external"></i></a>
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Saul Goodman</h3>
+                      <h4>Ceo &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-            </div>
+              </div>
+            </div><!-- End testimonial item -->
 
-            <div class="portfolio-box">
-                <img src="images/balita.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Posyandu Balita</h4>
-                    <p>Kegiatan pemantauan tumbuh kembang balita setiap bulan.</p>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Sara Wilsson</h3>
+                      <h4>Designer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-            </div>
+              </div>
+            </div><!-- End testimonial item -->
 
-            <div class="portfolio-box">
-                <img src="images/posbindu.jpg" alt="" width="300px" height="300px">
-                <div class="portfolio-layer">
-                    <h4>Posbindu</h4>
-                    <p>Kegiatan pemantauan kesehatan lansia secara berkala.</p>
-                    <a href="#">
-                        <i class="bx bx-link-external"></i></a>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Jena Karlis</h3>
+                      <h4>Store Owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-            </div>
+              </div>
+            </div><!-- End testimonial item -->
 
-            <div class="portfolio-box">
-                <img src="images/portfolio4.jpg" alt="" width="300px" height="300px">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, consequuntur?</p>
-                    <a href="#">
-                        <i class="bx bx-link-external"></i></a>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>John Larson</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
                 </div>
-            </div>
+              </div>
+            </div><!-- End testimonial item -->
 
-            <div class="portfolio-box">
-                <img src="images/portfolio5.jpg" alt="" width="300px" height="300px">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, consequuntur?</p>
-                    <a href="#">
-                        <i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/portfolio6.jpg" alt="" width="300px" height="300px">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, consequuntur?
-                    </p>
-                    <a href="#">
-                        <i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-    </section>
 
-    <!--contact section design-->
-
-<section class="contact" id="kontak">
-  <h2 class="heading">Kontak <span>Kami</span></h2>
-
-  <div class="contact-wrapper">
-    <div class="contact-info-box">
-      <div class="card">
-        <div class="icon">📞</div>
-        <h2>WhatsApp Hotline :</h2>
-        <p>Hotline: 0812-3456-789<br><a href="https://wa.me/6282127669160" class="btn1" target="_blank">Hubungi</a></p>
       </div>
-      <div class="card">
-        <div class="icon">📞</div>
-        <h2>WhatsApp Regina:</h2>
-        <p>Regina: 0857-2368-7848<br><a href="https://wa.me/6285723687848" class="btn1" target="_blank">Hubungi</a></p>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Events Section -->
+    <section id="events" class="events section">
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/CKG.jpg)">
+              <h3>Cek Kesehatan Gratis</h3>
+              <p class="description">
+                Pemeriksaan kesehatan gratis adalah program pemerintah yang memberikan layanan pemeriksaan kesehatan secara cuma-cuma kepada masyarakat, biasanya terkait dengan momen ulang tahun. 
+                Program ini bertujuan untuk meningkatkan kesadaran masyarakat akan pentingnya kesehatan dan deteksi dini penyakit. 
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
+              <h3>Posyandu</h3>
+              <p class="description">
+                Posyandu, atau Pos Pelayanan Terpadu, adalah wadah kegiatan yang diselenggarakan dari, oleh, dan untuk masyarakat guna memberikan pelayanan kesehatan dasar, khususnya bagi ibu hamil, bayi, dan balita. 
+                Posyandu bertujuan untuk menurunkan angka kematian ibu dan anak serta meningkatkan status gizi masyarakat. 
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
+              <h3>Posbindu</h3>
+              <p class="description">
+                Posbindu adalah singkatan dari Pos Binaan Terpadu, sebuah kegiatan berbasis masyarakat yang bertujuan untuk deteksi dini dan pemantauan faktor risiko penyakit tidak menular (PTM) 
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-4.jpg)">
+              <h3>Wedding Parties</h3>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p>
+            </div><!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
       </div>
-      <div class="card">
-        <div class="icon">✉️</div>
-        <h2>Email Kami :</h2>
-        <p>puskesmascibebercimahi@gmail.com</p>
+
+    </section><!-- /Events Section -->
+
+    <!-- dokter Section -->
+    <section id="dokter" class="dokter section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Dokter</h2>
+        <p><span>Dokter</span> <span class="description-title">Proffesional<br></span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/dokter/image.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Dr. Oviyanti Eka Hapsari</h4>
+                <span>Dokter Umum / Kepala Puskesmas</span>
+                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/dokter/image.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Dr. Lina Siti Nurhasanah</h4>
+                <span>Dokter Umum</span>
+                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/dokter/image.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Dr.Sofi</h4>
+                <span>Dokter Umum</span>
+                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+          
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/dokter/image.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Drg.Gustiawati</h4>
+                <span>Dokter Gigi</span>
+                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+        </div>
+
       </div>
-      <div class="card">
-        <div class="icon">🕒</div>
-        <h2>Telp :</h2>
-        <p>Telepon: (022) 88880072</p>
+
+    </section><!-- /dokter Section -->
+
+    <!-- Book A Table Section -->
+    <!-- <section id="book-a-table" class="book-a-table section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Book A Table</h2>
+        <p><span>Book Your</span> <span class="description-title">Stay With Us<br></span></p>
       </div>
-    </div>
-    <div class="map-container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.981256790779!2d107.51970519999999!3d-6.8928449999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e5023439f56d%3A0xf753e034197cee27!2sPuskesmas%20Cibeber%20Kota%20Cimahi!5e0!3m2!1sid!2sid!4v1752398087641!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-</section>
 
+      <div class="container">
 
-    <!-- footer design -->
+        <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
 
-    <footer class="footer">
-  <div class="footer-container">
+          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);"></div>
 
-    <!-- Profil Puskesmas -->
-    <div class="footer-section profile">
-      <a href="#" class="logo-puskesmas">
-            <img src="images/psks.png" alt="Logo" class="logo-imgs">
-            Puskesmas Cibeber
-        </a>
-      <p>
-        Puskesmas Cibeber, yang terletak di Kota Cimahi, Jawa Barat, merupakan pusat kesehatan masyarakat 
-        yang memberikan berbagai layanan medis kepada masyarakat setempat.
-      </p>
-    </div>
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="date" name="date" class="form-control" id="date" placeholder="Date" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" required="">
+                </div>
+              </div>
 
-    <!-- Jam Kerja -->
-    <div class="footer-section survey">
-      <h4>Jam Kerja</h4>
-      <p>Senin - Jumat: 07.30 - 10.30</p>
-      <p>Sabtu: 07.30 - 10.00</p>
-      <p>Minggu: Tutup</p>
-    </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+              </div>
 
-    <!-- Tautan Cepat -->
-    <div class="footer-section links">
-      <h4>Tautan Cepat</h4>
-      <ul>
+              <div class="text-center mt-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+                <button type="submit">Book a Table</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- /Book A Table Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p><span>Kunjungi</span> <span class="description-title">Galeri Kami</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/galeri3.jpg"><img src="assets/img/gallery/galeri3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kontak</h2>
+        <p><span>Hubungi</span> <span class="description-title">Kami</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="mb-5">
+          <!-- <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe> -->
+          <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.981256790779!2d107.51970519999999!3d-6.8928449999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e5023439f56d%3A0xf753e034197cee27!2sPuskesmas%20Cibeber%20Kota%20Cimahi!5e0!3m2!1sid!2sid!4v1752398087641!5m2!1sid!2sid" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          
+          
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="icon bi bi-whatsapp flex-shrink-0"></i>
+              <div>
+                <h3>WhatsApp Hotline</h3>
+                <p>0812-3456-789<br>
+                <a href="https://wa.me/6282127669160" class="btn1" target="_blank">Hubungi</a></p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="icon bi bi-whatsapp flex-shrink-0"></i>
+              <div>
+                <h3>WhatsApp Regina</h3>
+                <p>0857-2368-7848<br><a href="https://wa.me/6285723687848" class="btn1" target="_blank">Hubungi</a></p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Kami</h3>
+                <p>puskesmascibebercimahi@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Telp<br></h3>
+                <p>Telepon: (022) 88880072</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Alamat</h4>
+            <p>Jl. Puri Fajar Raya No.1, Cibeber, Kec. Cimahi Selatan,</p>
+            <p>Kota Cimahi, Jawa Barat 40531</p>
+            <p></p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-link icon"></i>
+          <div>
+            <h4>Tautan Cepat</h4>
+            <ul>
         <li><a href="#">Artikel</a></li>
         <li><a href="#">Berita</a></li>
         <li><a href="#">FAQ</a></li>
         <li><a href="#kontak">Kontak</a></li>
         <li><a href="#">Layanan</a></li>
       </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Jam Kerja</h4>
+            <p>
+              <strong>Senin - Jumat:</strong> <span>07.30 - 10.30</span><br>
+              <strong>Sabtu:</strong> <span>07.30 - 10.00</span><br>
+              <strong>Minggu</strong>: <span>Closed</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/share/12LigTtcV68/ " target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/puskesmascibeber_cimahi?igsh=dm5hb2VieG1wbTZm" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://youtube.com/@pkmcibeber?si=K75qyWBJGyAuPF4h" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
     </div>
 
-    <!-- Kontak -->
-    <div class="footer-section contact">
-      <h4>Alamat</h4>
-      <p><i class="bx bx-map"></i>Jl. Puri Fajar Raya No.1, Cibeber, Kec. Cimahi Selatan, Kota Cimahi, Jawa Barat 40531,</p>
-      <p><i class="bx bx-envelope"></i>puskesmascibebercimahi@gmail.com</p>
-      <p><i class="bx bx-phone"></i> (022) 88880072</p>
-      <p>Ikuti Kami di:</p>
-      <div class="social-media">
-        <a href="https://www.facebook.com/share/12LigTtcV68/ " target="_blank"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/puskesmascibeber_cimahi?igsh=dm5hb2VieG1wbTZm" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-        <a href="https://youtube.com/@pkmcibeber?si=K75qyWBJGyAuPF4h" target="_blank"><i class="bx bxl-youtube"></i></a>
+    <div class="container copyright text-center mt-4">
+      © 2025 - <strong>Puskesmas Cibeber Kota Cimahi</strong>
+      
     </div>
-    </div>
-  </div>
 
-  <!-- Copyright -->
-  <div class="footer-bottom">
-    © 2025 - <strong>Puskesmas Cibeber Kota Cimahi</strong>
-  </div>
-</footer>
+  </footer>
 
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <script>
-        function download() {
-            var str = "<?php echo $file_content;?>";
-            var a = document.createElement("a");
-            document.body.appendChild(a);
-            a.style = "display: none";
-            var data = window.atob(str);
-            var blob = new Blob([data], { type: "application/pdf" });
-            var url = window.URL.createObjectURL(blob);
-            a.href = url;
-            a.download = "download.pdf";
-            a.click();
-            window.URL.revokeObjectURL(url);
-        }
-    </script>
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-    <!-- scroll reveal -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-    <!-- typed js -->
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-
-    <!-- custom js -->
-    <script src="js/script.js"></script>
 </body>
 
 </html>
